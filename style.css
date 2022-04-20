@@ -1,0 +1,63 @@
+:root{
+    --padding: 0 15% 0 15%;
+    --text-align: center;
+    --border-radius: 5px;
+    --margin: 2%;
+}
+
+nav {
+   background-color: rgb(255, 55, 0);
+   font-size: 180%;
+   margin-top: 3%;
+   border-radius: var(--border-radius);
+   padding-left: 2%;
+}
+
+nav {
+    color: aliceblue;
+    font-family: Cambria;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: var(--text-align)
+}
+
+p {
+    text-align: var(--text-align);
+}
+
+.cont1{
+    text-align: var(--text-align);
+}
+
+#name{
+    margin: var(--margin);
+}
+
+#email{
+    margin: var(--margin);
+}
+
+#number-label {
+    margin: var(--margin);
+}
+
+#dropdown {
+    margin: var(--margin);
+}
+
+#submit {
+    cursor: pointer;
+}
+
+.feedback {
+    margin: var(--margin);
+}
+
+label {
+    font-size: medium;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

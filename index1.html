@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="ico.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Survey</title>
+</head>
+<body>
+    <nav>Wufoo</nav>
+    <div class="cont1">
+        <h1 id="title">Developer Survey</h1>
+        <p id="description">Hi there Dev our company would like to know more about you!</p>
+        <form id="name">
+            <label id="name-label">Name</label>
+            <input type="text" placeholder="Insert here your name">
+        </form>
+        <form id="email" action="">
+            <label id="email-label">E-mail</label>
+            <input type="text" placeholder="Insert here your email">
+        </form>
+        <form id="number-label" action="">
+            <label>Number</label>
+            <input min="11" max="11" type="password"  placeholder="Ex: 21 99104-1326">
+        </form>
+        <form id="dropdown">
+            <label for="">Choose your career path</label>
+            <select name="career" id="career">
+                <option value="Full-Stack">Full-Stack</option>
+                <option value="Back-End">Back-End</option>
+                <option value="Front-End">Front-End</option>
+            </select>
+        </form>
+        <form>
+            <label for="languages">Select your skills</label>
+            <br>
+            <label for="HTML5"><input id="html" type="checkbox" name="languages"> HTML5</label>
+            <label for="Python"><input type="checkbox" name="languages" id="Python">Python</label>
+            <br>
+            <label for="CSS3"><input type="checkbox" name="languages" id="CSS3">CSS3</label>
+            <label for="JavaScript"><input type="checkbox" name="languages" id="Js">JavaScript</label>
+        </form>
+        <div class="feedback">
+            <form>
+                <label for="">Insert here additional comments</label>
+                <br>
+                <textarea name="quadro" id="textarea" cols="30" rows="10"></textarea>
+            </form>
+        </div>
+        <form id="submit"><button type="submit">Submit</button></form>
+    </div>
+    <div class="square"></div>
+
+</body>
+</html>
